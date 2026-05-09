@@ -1,6 +1,6 @@
 {
   "name": "pi-open-here",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open current directory (or a path) in external editor from pi",
   "type": "module",
   "license": "MIT",
@@ -24,14 +24,14 @@
     ]
   },
   "peerDependencies": {
-    "@mariozechner/pi-coding-agent": "*"
+    "@earendil-works/pi-coding-agent": "*"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@mariozechner/pi-coding-agent": "^0.64.0",
     "@types/node": "^24.3.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "@earendil-works/pi-coding-agent": "^0.74.0"
   }
 }
